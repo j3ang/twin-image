@@ -303,7 +303,7 @@ strong {
   height: 100vh;
   width: 100%;
   background-color: #1F2535;
-  background: url(../img/istra1920.jpg) no-repeat center center fixed;
+  background: url(../img/red-black-bk.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -390,7 +390,6 @@ h1#title-1 {
   height: 150px;
   width: 100%;
   position: absolute;
-  bottom: 0px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -440,12 +439,13 @@ a.scroll::after {
   left: 0;
   position: absolute;
   right: 0;
-  top: 10px;
+  top: 40px;
+  bottom: 60px;
   width: 32px;
-  border-bottom-color: #D90000;
+  border-bottom-color: #dcdfe1;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  border-right-color: #D90000;
+  border-right-color: #dcdfe1;
   border-right-style: solid;
   border-right-width: 2px;
   -webkit-transform: rotate(45deg);
@@ -455,21 +455,21 @@ a.scroll::after {
 
 @-webkit-keyframes arrow {
   0%,100% {
-    top: 0;
+    top: 30;
   }
 
   50% {
-    top: 30px;
+    top: 10px;
   }
 }
 
 @keyframes arrow {
   0%,100% {
-    top: 0;
+    top: 30;
   }
 
   50% {
-    top: 30px;
+    top: 10px;
   }
 }
 
@@ -480,7 +480,7 @@ a.scroll::after {
   left: 50%;
   transform: translate(-50%);
   width: 100%;
-  bottom: 30%;
+  bottom: 20%;
 }
 
 .social-btn-container-sub {
