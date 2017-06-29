@@ -85,6 +85,7 @@ table {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  color: black;
 }
 
 body {
@@ -303,7 +304,7 @@ strong {
   height: 100vh;
   width: 100%;
   background-color: #1F2535;
-  background: url(../img/red-black-bk.jpg) no-repeat center center fixed;
+  background: url(../img/home_background.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -324,7 +325,7 @@ section {
   min-height: 100vh;
   width: 100%;
   background-color: #141C31;
-  background: url(../images/opatija3.jpg);
+  background: url(../images/homeimg2.jpg);
 }
 
 #section-4 {
@@ -501,7 +502,7 @@ a.scroll::after {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  border: 1px solid #fff;
+  border: 1px solid #050505;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -591,7 +592,7 @@ a.scroll::after {
   font-weight: 100;
   padding-top: 10px;
   padding-bottom: 60px;
-  color: #0099FF;
+  color: #673ab7;
   display: block;
 }
 
@@ -1638,6 +1639,20 @@ ul.blogsocico li.youtube a:hover, #sidebar ul.blogsocico li.youtube a:hover {
 .spec-r-cont {
   padding-left: 5%;
 }
+
+.caption {
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+  padding: 0 1em;
+  text-shadow: none;
+  line-height: 1.2em;
+  padding: 0.25em 0.5em;
+  width: auto;
+  height: auto;
+  text-align: center;
+  visibility: hidden;
+}
+
+
 
 @media all and (min-width: 1600px) {
 	
